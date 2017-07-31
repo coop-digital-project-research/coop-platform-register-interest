@@ -1,26 +1,28 @@
-# Co-op prototyping kit proof of concept
+# Co-op Platform: Testing
 
-This is a proof of concept for a simple prototyping kit.
+## How to use this
 
-The aim is to enable anyone with a text editor to create simple Co-op branded
-prototypes quickly and without the need for technical knowledge or to install
-complex software such as Node or Ruby.
+### Co-op prototyping kit
 
-*Note: This README file is not intended for the end-users of the kit. It is
-here for the folks who will be working on the kit, to explain how it
-works/will work. The version of the kit that will be downloadable to users
-will not include this file.*
+We're using the [Co-op prototyping kit it](https://github.com/coopdigital/prototype-kit-proof-of-concept) for base Co-op styles.
 
-## Using the prototyping kit
+### Middleman
 
-To use the prototype kit, users will
-[download it](https://github.com/coopdigital/prototype-kit-proof-of-concept/releases/download/0.1.0/prototype-kit.zip)
-and open the GETTING-STARTED.html file on their computer.
+Middleman is a static site generator using all the shortcuts and tools in modern web development. [Read more about Middleman](https://middlemanapp.com/).
 
-## Principles
+* Install Middleman with `gem install middleman`
+* In the command line use `middleman build`
+* Then, when working use `middleman serve`
+* See your site at `localhost:4567`
 
-The prototype kit:
+### Co-op Design Manual
 
-  * is designed for prototyping, not for production code
-  * requires minimal skills to get started: HTML and CSS
-  * requires minimal software to use: a text editor and a browser
+When adding elements to the page you should take a look at the [Co-op Design Manual](https://coop-design-manual.herokuapp.com/index.html).
+
+### File structure
+
+Co-op Prototyping folders are in `source/assets ...` and shouldn't be touched.
+
+* Images should be added to `source/images`
+* JavaScript to `source/javascripts`
+* Additional styles for the prototype to `source/stylesheets`
