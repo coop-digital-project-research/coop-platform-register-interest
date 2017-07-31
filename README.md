@@ -1,4 +1,4 @@
-# Co-op Platform: Testing
+# Co-op Platform: Will organisations register their interest for a "Co-op platform"?
 
 ## How to use this
 
